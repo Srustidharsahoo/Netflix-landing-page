@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+
+.main-section{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(image/main\ banner.jpg);
+    height: 90vh;
+    width: auto;  
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 0px 150px;
+}
+
+.nav-button{
+    display: flex;
+    padding: 10px;
+}
+
+.login-button{
+    border: #fff ;
+    background-color: red;
+    color: #ffffff;
+    padding: 10px 25px 10px 25px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.login-button:hover{
+    cursor: pointer;
+}
+
+#language{
+    padding: 10px;
+    background-color: #333333;
+    color: #ffffff;
+    font-weight: 600;
+    margin-right: 40px;
+    border-radius: 5px;
+}
+
+
+.home-section{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 200px;
+    align-items: center;
+}
+
+.home-section p{
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.home-section h1{
+    font-weight:900;
+    font-size: 48px;
+    margin: 12px 0px;
+}
+
+.home-section button{
+    width: 220px;
+    text-align: center;
+    padding: 15px;
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 24px;
+    border-radius: 5px;
+    background-color: red;
+    border: none;
+    color: #ffffff;
+}
+
+.home-section button:hover{
+    cursor: pointer;
+}
+
+
+/* feature and banner section */
+
+.feature-section{
+    display: flex;
+    flex-direction: column;
+    background-color: #333333;
+}
+
+.banner1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 150px;
+    color: #ffffff;
+    background-color: black;
+    margin-top: 10px;
+}
+
+.banner1-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.banner1-text h1{
+    font-weight:bolder;
+    font-size: 48px;
+}
+
+.banner1-text p{
+    font-weight: 500;
+    font-size: 26px;
+}
+
+/* .banner1-img{
+    padding: 10px;
+    height:"300px" ;
+    width:"400px";
+} */
+
+
+
+
+.banner2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 150px;
+    color: #ffffff;
+    background-color: black;
+    margin-top: 10px;
+}
+
+.banner2-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.banner2-text h1{
+    font-weight:bolder;
+    font-size: 48px;
+}
+
+.banner2-text p{
+    font-weight: 500;
+    font-size: 26px;
+}
+
+
+
+
+.banner3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 150px;
+    color: #ffffff;
+    background-color: black;
+    margin-top: 10px;
+}
+
+.banner3-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.banner3-text h1{
+    font-weight:bolder;
+    font-size: 48px;
+}
+
+.banner3-text p{
+    font-weight: 500;
+    font-size: 26px;
+}
+
+
+.banner4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 150px;
+    color: #ffffff;
+    background-color: black;
+    margin-top: 10px;
+}
+
+.banner4-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.banner4-text h1{
+    font-weight:bolder;
+    font-size: 48px;
+}
+
+.banner4-text p{
+    font-weight: 500;
+    font-size: 26px;
+}
+
+
+.qa-main-section{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+    padding: 50px 150px;
+    color: #ffffff;
+    background-color: black;
+    margin-top: 10px;
+}
+
+.qa-section{
+    display: grid;
+    row-gap: 10px;
+    grid-template-columns: repeat(1fr);
+    margin: 50px 60px ;
+
+}
+
+
+.box1{
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;}
+
+.box2{
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;}
+
+.box3{
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;}
+
+.box4{
+    
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;}
+
+.box5{
+
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+.box6{
+   
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    text-align: center;
+}
+
+.box h4{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.box h1{
+    font-size: 5rem;
+    font-weight: 100;
+}
+
+.box:hover{
+    background-color: #535151;
+}
+
+.qa-main-section button{
+    width: 220px;
+    text-align: center;
+    padding: 15px;
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 24px;
+    border-radius: 5px;
+    background-color: red;
+    border: none;
+    color: #ffffff;
+}
+
+/* fotter section */
+
+.fotter-section{
+    padding: 50px 150px;
+    color: #ffffff;
+    background-color: black;
+    margin-top: 10px; 
+}
+
+.sub-fotter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px 100px;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.boxA{
+   
+    /* background-color: #333333; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: start;
+}
+
+.boxB{
+   
+    /* background-color: #333333; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    
+}
+
+.boxC{
+   
+    /* background-color: #333333; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.boxD{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.fotter-section p{
+    margin-left: 100px;
+}
+
+.fbutton{
+    margin-left: 100px ;
+}
+
+.p1{
+    margin-top: 30px;
+}
+
+
+
